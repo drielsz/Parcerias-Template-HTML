@@ -80,9 +80,7 @@ body .div-container {
 
 .container-ret {
     flex: 1;
-    height: auto;
     display: flex;
-
     grid-column-gap: 40px;
 }
 
