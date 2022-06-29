@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  height: 100%;
+  margin: 0;
+}
+
+body .div-container {
+  flex: 1;
+  padding: 90px 90px 0px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.first-ret {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.25);
+  flex: 0.3;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+}
+
+.image-parceria {
+  background-image: url("https://bun.filedit.ch/fRNwtjllqSRNlgbcXnjw.png");
+  width: 80%;
+  height: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.other-ret {
+  flex: 1;
+  height: auto;
+  min-width: 500px;
+}
+
+.info-parceria h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.035em;
+
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.info-parceria h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.info-parceria h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+ /* identical to box height */
+
+  color: #2d2b2b;
+}
+
+.container-ret {
+    flex: 1;
+    height: auto;
+    display: flex;
+
+    grid-column-gap: 40px;
+}
+
+@media (max-width: 879px) {
+  .first-ret {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .other-ret {
+    min-width: 100%;
+  }
+}
